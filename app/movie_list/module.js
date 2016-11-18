@@ -6,7 +6,7 @@
 		.config(['$routeProvider', function($routeProvider) {
 			$routeProvider.when('/:catgory/:pageSize?', {
 				//:号代表路由的占位符，？代表参数是否可选
-				templateUrl: '/movie_list/view.html',
+				templateUrl: './movie_list/view.html',
 				controller: 'MainController'
 			});
 		}])

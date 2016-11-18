@@ -6,7 +6,7 @@
 	angular.module('movie_detail',['ngRoute','http_service'])
 		.config(['$routeProvider',function($routeProvider){
 		$routeProvider.when('/subject/:id',{
-			templateUrl:'/movie_detail/view.html',
+			templateUrl:'./movie_detail/view.html',
 			controller:'ListController'
 		});
 		}])
